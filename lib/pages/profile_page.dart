@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_playground/widgets/post_card.dart';
 import 'package:flutter_playground/widgets/profile_header.dart';
 

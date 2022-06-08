@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class PostCard extends StatelessWidget {
   const PostCard({Key? key, required this.title}) : super(key: key);
@@ -8,11 +6,11 @@ class PostCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top:15, bottom: 15),
+      margin: const EdgeInsets.only(top:15, bottom: 15),
       width: 250,
       height: 150,
       decoration: BoxDecoration(
-        color: Color.fromARGB(234, 248, 247, 247),
+        color: const Color.fromARGB(234, 248, 247, 247),
         borderRadius: BorderRadius.circular(10),
         boxShadow: const [
           BoxShadow(color: Color.fromARGB(255, 185, 184, 184), blurRadius: 5),
